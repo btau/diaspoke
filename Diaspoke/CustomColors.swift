@@ -12,8 +12,7 @@ extension UIColor {
     
     public class func diaspokeBlue() -> UIColor {
         
-        //TODO: Adjust RGB to correct color scheme
-        return UIColor(red: 120/255, green: 120/255, blue: 120/255, alpha: 1.0)
+        return UIColor(red: 106/255, green: 119/255, blue: 151/255, alpha: 1.0)
     }
     
 }

@@ -12,9 +12,9 @@ class WelcomeViewController: UIViewController {
 
     //MARK: - Outlets
     @IBOutlet weak var welcomeLabel: UILabel!
-    @IBOutlet weak var tapToBeginButton: UIButton!
     @IBOutlet weak var diaspokeLogoImage: UIImageView!
-    
+    @IBOutlet weak var tapToBeginLabel: UILabel!
+    @IBOutlet weak var tapToBeginButton: UIButton!
     
     //MARK: - Functions
     override func viewDidLoad() {
@@ -25,9 +25,7 @@ class WelcomeViewController: UIViewController {
     
     
     //MARK: - Actions
-    @IBAction func onTapToBeginTapped(_ sender: UIButton) {
-        //segue to filter screen
-    }
+    
     
 
 }

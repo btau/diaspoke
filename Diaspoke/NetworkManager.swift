@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Firebase
+import FirebaseAuth
 
 class NetworkManager {
     
@@ -26,20 +28,11 @@ class NetworkManager {
     //MARK: - Private Firebase References
     fileprivate
     
-//    let rootRef = FIRDatabase.database().reference()
-//    var usersRef = FIRDatabaseReference()
-//    var bidsRef = FIRDatabaseReference()
-//    var meleePricesRef = FIRDatabaseReference()
-    
-//    fileprivate var currentUser: User?
-    
+    let rootRef = FIRDatabase.database().reference()
     
     //MARK: - Initialization
     init() {
         print("Network Manager Initialized")
-//        bidsRef = rootRef.child("bids")
-//        usersRef = rootRef.child("users")
-//        meleePricesRef = rootRef.child("meleePrices")
     }
     
 }
